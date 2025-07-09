@@ -6,12 +6,6 @@ st.header('Vehiculos entre 2018 y 2019')
 
 st.write('Informe Financiero')
 
-#Venta por año
-car_data = pd.read_csv('vehicles_us.csv') # leer los datos
-
-fig = px.bar(x=["2018", "2019"], y = [50000,100000,150000,200000,250000,300000])
-fig.update_xaxes(type='date_posted')
-fig.show()
      
 hist_button = st.button('Construir histograma') # crear un botón
      
