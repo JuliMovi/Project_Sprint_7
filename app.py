@@ -6,7 +6,7 @@ st.header('Vehiculos entre 2018 y 2019')
 
 st.write('Informe Financiero')
 
-     
+car_data = pd.read_csv('vehicles_us.csv') # leer los datos    
 hist_button = st.button('Construir histograma') # crear un botón
      
 if hist_button: # al hacer clic en el botón
