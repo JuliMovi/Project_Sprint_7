@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.header('Informe de Vehiculos entre 2018 y 2019')
+st.header('Vehiculos entre 2018 y 2019')
 
 st.write('Informe Financiero')
      
